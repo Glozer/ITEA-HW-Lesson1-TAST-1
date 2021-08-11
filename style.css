@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(45deg, #3f87a6 , #ebf8e1, #f69d3c);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    background-color: rgba(255, 255, 255, .4);
+    padding: 15px; 
+} 
+input[type="radio"]{
+    display: none;
+} 
+.order_input{
+    display: flex; 
+    flex-direction: row;    
+}
+.order_input label{ 
+    margin: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box; 
+    background-color: #F5A041;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}    
+.array_info{
+    padding: 15px;
+    margin: 5px;
+    margin-top: 15px;
+    background-color: #1E1E1E;
+    color:#67CDFE; 
+}
+.order_input input[type="radio"]:checked+label {
+    background-color: #81B2BD;
+  }
